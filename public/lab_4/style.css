@@ -4,7 +4,6 @@ body {
   font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
   background: #e0b744;
   color: #fff;
-  padding: 50px 0;
 }
 
 .container {
@@ -34,17 +33,7 @@ body {
   justify-content: space-between;  
 }
 
-.flex-outer > li:not(:last-child) {
-  margin-bottom: 20px;
-}
 
-.flex-outer li label,
-.flex-outer li p {
-  padding: 8px;
-  font-weight: 300;
-  letter-spacing: .09em;
-  text-transform: uppercase;
-}
 
 .flex-outer > li > label,
 .flex-outer li p {
@@ -62,15 +51,10 @@ body {
 }
 
 .flex-outer li button {
-  margin-left: auto;
   padding: 8px 16px;
   border: none;
   background: #333;
-  color: #f2f2f28c;
-  letter-spacing: .09em;
-  border-radius: 2px;
+  color: #ffffff;
+
 }
 
-.flex-inner li {
-  width: 100px;
-}
