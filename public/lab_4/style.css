@@ -13,14 +13,8 @@ body {
   margin: 0 auto;
 }
 
-.container * {
-  box-sizing: border-box;
-}
-
-.flex-outer,
-.flex-inner {
-  list-style-type: none;
-  padding: 0;
+.container h1 {
+  align-items: center;
 }
 
 .flex-outer {
@@ -67,19 +61,12 @@ body {
   margin: 0;
 }
 
-.flex-outer li input:not([type='checkbox']),
-.flex-outer li textarea {
-  padding: 15px;
-  border: none;
-}
-
 .flex-outer li button {
   margin-left: auto;
   padding: 8px 16px;
   border: none;
   background: #333;
   color: #f2f2f28c;
-  text-transform: uppercase;
   letter-spacing: .09em;
   border-radius: 2px;
 }
