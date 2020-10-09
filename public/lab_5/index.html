@@ -2,22 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Lab 5 for Frazer Workneh</title>
+    <title>Frazer Workneh Lab 5</title>
     <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
   <div class="wrapper">
     <div class="container">
+      <div class="header">
         <h1>Lab 5 for Frazer Workneh</h1>
+      </div>
         <form action="/api" method="post">
           <ul class="flex-outer">
             <li>
-              <label for="first-name">First Name</label>
+              <label for="fname">First Name</label>
               <input type="text" id="first-name" placeholder="Enter your first name here" maxlength="140">
             </li>
             <li>
-              <label for="last-name">Last Name</label>
+              <label for="lname">Last Name</label>
               <input type="text" id="last-name" placeholder="Enter your last name here" maxlength="140">
             </li>
             <li>
@@ -30,7 +32,7 @@
             </li>
             <li>
               <label for="message">Message</label>
-              <textarea rows="5" cols="33" id="message" placeholder="Enter your message here"></textarea>
+              <textarea name ="message" rows="5" cols="33" id="message" placeholder="Enter your message here">Default message</textarea>
             </li>
             <li>
               <p class=".checkbox-list-label">Age</p>
@@ -50,7 +52,7 @@
               </ul>
             </li>
             <li>
-              <button class="button" type="button" name="submit_button" id="activate_button">Submit</button>
+              <button class="button" type="button" name="submit_button" id="submit_button">Submit</button>
               <button class="button" type="button" name="activate_button" id="activate_button" onclick="testFunction()">Activate</button>
             </li>
           </ul>
