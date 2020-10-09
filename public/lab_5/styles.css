@@ -1,3 +1,16 @@
+
+.header {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
 body {
   font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
   background: #e0b744;
@@ -15,8 +28,8 @@ body {
 }
 
 .flex-outer {
-  max-width: 900px;
-  margin: 0 auto;
+  max-width: 800px;
+  margin: 0px 0px 0px 0px;
   padding: 0 16px;
 }
 
@@ -33,7 +46,7 @@ body {
 }
 
 .flex-inner li{
-  max-width: 95px;
+  width: 95px;
 }
 
 .flex-outer > li > label,
