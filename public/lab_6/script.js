@@ -1,7 +1,3 @@
-// You may wish to find an effective randomizer function on MDN.
-
-const { reverse } = require("cypress/types/lodash");
-
 function range(int) {
   const arr = [];
   for (let i = 0; i < int; i += 1) {
